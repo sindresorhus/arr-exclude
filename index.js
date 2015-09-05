@@ -5,6 +5,6 @@ module.exports = function (input, exclude) {
 	}
 
 	return input.filter(function (x) {
-		return exclude.indexOf(x) === -1;
+		return ~exclude.indexOf(x);
 	});
 };
