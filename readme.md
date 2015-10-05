@@ -13,7 +13,7 @@ $ npm install --save arr-exclude
 ## Usage
 
 ```js
-var arrExclude = require('arr-exclude');
+const arrExclude = require('arr-exclude');
 
 arrExclude(['a', 'b', 'c'], ['b']);
 //=> ['a', 'c']
