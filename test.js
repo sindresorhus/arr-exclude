@@ -2,6 +2,6 @@ import test from 'ava';
 import m from './';
 
 test(t => {
-	t.same(m(['a', 'b', 'c'], ['b']), ['a', 'c']);
-	t.same(m(null, ['a']), []);
+	t.deepEqual(m(['a', 'b', 'c'], ['b']), ['a', 'c']);
+	t.deepEqual(m(null, ['a']), []);
 });
