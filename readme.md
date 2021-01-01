@@ -1,4 +1,4 @@
-# arr-exclude [![Build Status](https://travis-ci.org/sindresorhus/arr-exclude.svg?branch=master)](https://travis-ci.org/sindresorhus/arr-exclude)
+# arr-exclude
 
 > Exclude certain items from an array
 
